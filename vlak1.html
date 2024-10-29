@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>БДЖ | Class 37</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="./components/navigation.js"></script>
+    <script type="module" src="./components/hero.js"></script>
+    <script type="module" src="./components/info.js"></script>
+    <style>
+      body {
+        height: 2200px;
+      }
+
+      #cover {
+        z-index: 1000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Ffb%2F87%2Fb3%2Ffb87b38590adcc053217558b4a2d4944.jpg&f=1&nofb=1&ipt=e739d65ea227a006ab9f44dc885e1afe993fada83e9c5c35a6ba64536da9fd55&ipo=images");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        -webkit-mask: url("../../static/cloud-mask.png");
+                mask: url("../../static/cloud-mask.png");
+            -webkit-mask-size: 1800% 100%;
+                mask-size: 1800% 100%;
+      }
+    </style>
+</head>
+<body>
+    <nav-bar>
+        <nav-link link="index.html">Начало</nav-link>
+        <nav-link link="index.html#trains" active>Влакове</nav-link>
+        <nav-link link="contact.html">Контакти</nav-link>
+        <nav-link link="https://github.com/ITPG-CODEWARS/codewars-2024-first-round-i-georgiev28">GitHub</nav-link>
+    </nav-bar>
+
+    <hero-section 
+    img="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpreview.redd.it%2Flrpiflh3pg141.jpg%3Fauto%3Dwebp%26s%3Dd372c70ca04a845bc730e5230a02dc28063bd661&f=1&nofb=1&ipt=dd0ead8c3313284d5aeb26de162b00551ec0172de7959f62b5d787ca7ff9db54&ipo=images">
+        Class 37
+    </hero-section>
+
+    <info-section img="./static/greenmini.png">
+      <h1 slot="title">Обзор на локомотив Class 37</h1>
+      <p slot="text">Class 37 е тип дизелово-електрически локомотив, който беше въведен в Обединеното кралство през 60-те години на миналия век. Известен с характерния си дизайн на English Electric, Class 37 разполага с мощен 12-цилиндров двигател и е широко използван както за товарни, така и за пътнически услуги. С максимална скорост около 120 км/ч, тези локомотиви станаха основен елемент в операциите на British Rail и са известни със своята надеждност и многофункционалност. Много от локомотивите Class 37 са запазени и все още се използват на наследствени железници, което демонстрира тяхната дълготрайна привлекателност сред любителите на железопътния транспорт.</p>
+    </info-section>
+
+    <div id="cover"></div>
+    <script src="./js/scrollReveal.js"></script>
+</body>
+</html> 

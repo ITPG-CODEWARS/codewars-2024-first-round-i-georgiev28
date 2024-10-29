@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>БДЖ | GE/Wabtec ET44AC</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="./components/navigation.js"></script>
+    <script type="module" src="./components/hero.js"></script>
+    <script type="module" src="./components/info.js"></script>
+    <style>
+      body {
+        height: 2200px;
+      }
+
+      #cover {
+        z-index: 1000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.railpictures.net%2Fimages%2Fd2%2F2%2F6%2F3%2F5263.1672616125.jpg&f=1&nofb=1&ipt=b57cef64819fc271a542e3209431ac1536704ed7eaa524cc6e1b4d49e9a67098&ipo=images");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        -webkit-mask: url("../../static/cloud-mask.png");
+                mask: url("../../static/cloud-mask.png");
+            -webkit-mask-size: 1800% 100%;
+                mask-size: 1800% 100%;
+      }
+    </style>
+</head>
+<body>
+    <nav-bar>
+        <nav-link link="index.html">Начало</nav-link>
+        <nav-link link="index.html#trains" active>Влакове</nav-link>
+        <nav-link link="contact.html">Контакти</nav-link>
+        <nav-link link="https://github.com/ITPG-CODEWARS/codewars-2024-first-round-i-georgiev28">GitHub</nav-link>
+    </nav-bar>
+
+    <hero-section 
+    img="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.american-rails.com%2Fimages%2Fx9927152431fhy1h19198196196978.jpg.pagespeed.ic.gU_bN35sq2.jpg&f=1&nofb=1&ipt=a91f3221d8d4ac6a2d78ef4fb5b8dabe04b51a158f52486547ee3da61e03bf94&ipo=images">
+      GE/Wabtec ET44AC
+    </hero-section>
+
+    <info-section img="./static/blackmini.png">
+      <h1 slot="title">GE/Wabtec ET44AC</h1>
+      <p slot="text">GE/Wabtec ET44AC е съвременен дизелов товарен локомотив, който е проектиран и произведен от GE Transportation, сега част от Wabtec Corporation. Този модел е известен със своята висока ефективност и екологичност, предлагане на мощност от 4400 конски сили. ET44AC разполага с иновативни технологии, включително система за управление с висока производителност и подобрена динамика на управление. Локомотивът е проектиран за работа в тежки товарни условия и е оптимизиран за намаляване на вредните емисии, съобразявайки се с екологичните стандарти. ET44AC е широко използван в товарната железопътна мрежа в Съединените щати и е признат за един от най-надеждните локомотиви в индустрията.</p>
+    </info-section>
+
+    <div id="cover"></div>
+    <script src="./js/scrollReveal.js"></script>
+</body>
+</html> 

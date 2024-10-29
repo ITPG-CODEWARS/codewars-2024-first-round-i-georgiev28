@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script type="module" src="./components/navigation.js"></script>
+    <script type="module" src="./components/hero.js"></script>
+    <script type="module" src="./components/testimonial.js"></script>
+    <script type="module" src="./components/gallery.js"></script>
+</head>
+<body>
+    <nav-bar>
+        <nav-link link="index.html" active>Начало</nav-link>
+        <nav-link link="#trains">Влакове</nav-link>
+        <nav-link link="contact.html">Контакти</nav-link>
+        <nav-link link="https://github.com/ITPG-CODEWARS/codewars-2024-first-round-i-georgiev28">GitHub</nav-link>
+    </nav-bar>
+
+    <hero-section 
+    img="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftravelingcanucks.com%2Fwp-content%2Fuploads%2F2011%2F10%2F45545244.jpg&f=1&nofb=1&ipt=c9f57fd7463b0389bbba73e2b754d8d44d0c0dd5031a6b89e590738da85118a7&ipo=images">
+        БАВНО ДВИЖЕЩИ ЖЕЛЕЗНИЦИ
+    </hero-section>
+
+    <testimonial-section>
+        <h5 slot="title">Защо хората харесват влакове?</h5>
+        <testimonial-quote>Влакът предлага много повече пространство за краката в сравнение с самолетите. Мога да се разтегна и да се насладя на пътуването, без да се притеснявам, че ще се ударя в съседите си.</testimonial-quote>
+        <testimonial-quote>Пътуването с влак ми позволява да се насладя на невероятни пейзажи, които не мога да видя от друг вид транспорт. Всеки маршрут предлага уникални гледки, които правят пътуването незабравимо.</testimonial-quote>
+        <testimonial-quote>Обичам да пътувам с влак, защото знам, че това е по-екологичен начин на транспорт. Влаковете имат по-малко влияние върху околната среда в сравнение с автомобилите и самолетите.</testimonial-quote>
+        <testimonial-quote>Не ми се налага да се тревожа за опашки на летището или за трафик. С влака просто се качвам и се наслаждавам на пътуването. Чувствам се много по-спокойно!</testimonial-quote>
+        <testimonial-quote>Влакът е чудесно място да се срещнеш с нови хора. Обичам да разговарям с непознати или да споделям преживявания с приятели по време на дългото пътуване.</testimonial-quote>
+    </testimonial-section>
+
+    <image-gallery id="trains">
+        <!-- TODO: Modularize -->
+    </image-gallery>
+</body>
+</html>

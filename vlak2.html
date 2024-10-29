@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>БДЖ | CSX AC6000CW</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="./components/navigation.js"></script>
+    <script type="module" src="./components/hero.js"></script>
+    <script type="module" src="./components/info.js"></script>
+    <style>
+      body {
+        height: 2200px;
+      }
+
+      #cover {
+        z-index: 1000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.railroadmichigan.com%2Fcsx654a.jpg&f=1&nofb=1&ipt=342ddd6c9fb1e98cddbd45f7b610c47c806998561b8a9a469680467bfd5bc9fa&ipo=images");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        -webkit-mask: url("../../static/cloud-mask.png");
+                mask: url("../../static/cloud-mask.png");
+            -webkit-mask-size: 1800% 100%;
+                mask-size: 1800% 100%;
+      }
+    </style>
+</head>
+<body>
+    <nav-bar>
+        <nav-link link="index.html">Начало</nav-link>
+        <nav-link link="index.html#trains" active>Влакове</nav-link>
+        <nav-link link="contact.html">Контакти</nav-link>
+        <nav-link link="https://github.com/ITPG-CODEWARS/codewars-2024-first-round-i-georgiev28">GitHub</nav-link>
+    </nav-bar>
+
+    <hero-section 
+    img="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fscreenshot-prod.dovetailgames.net%2F47f8b0fc-a580-46c1-a24e-6d9cb6cbf562&f=1&nofb=1&ipt=8c530426189f339b39f755ae3b214460fac189937d80478f5592a3235f5f97a8&ipo=images">
+      CSX AC6000CW
+    </hero-section>
+
+    <info-section img="./static/bluemini.png">
+      <h1 slot="title">CSX AC6000CW</h1>
+      <p slot="text">CSX AC6000CW е мощен товарен локомотив, произведен от Electro-Motive Diesel (EMD) за CSX Transportation. Той е част от серията AC6000CW и е известен с високата си мощност, която достига до 6000 конски сили, благодарение на V16 дизеловия си двигател. Локомотивът е проектиран за работа в тежки условия и е в състояние да тегли големи товарни влакове по разнообразни терени. AC6000CW разполага с модерна електрическа система и иновативен контролен софтуер, което му позволява да бъде ефективен и икономичен. Той е важен елемент от товарната инфраструктура в Съединените щати и играе ключова роля в транспортната мрежа на CSX.</p>
+    </info-section>
+
+    <div id="cover"></div>
+    <script src="./js/scrollReveal.js"></script>
+</body>
+</html> 
