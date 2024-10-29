@@ -1,0 +1,17 @@
+@layer reset, base, components;
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600,700');
+
+@import url('./util/normalize.util.css') layer(reset);
+@import url('./util/reset.util.css') layer(reset);
+
+:root {
+  --primary-color: #00529B;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
